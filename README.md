@@ -1,4 +1,4 @@
-# unitrack
+# Todoapp
 
 
 ## Vuejs Setup
@@ -15,8 +15,8 @@ npm run serve
 
 ### Clone Repository
 ```
-git clone https://github.com/batTrung/unitrack.git
-cd unitrack
+https://github.com/Nukukoricchio/todoapi
+cd todoapi
 ```
 
 ### Install packages
@@ -26,8 +26,14 @@ pip install requirements.txt
 
 ### Create database
 ```
-python manage.py makemigrations accounts
+python manage.py makemigrations todo
 python manage.py migrate
+```
+
+
+### Create some demo records
+```
+python manage.py createtodos
 ```
 
 ### Run local server
